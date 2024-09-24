@@ -1,0 +1,18 @@
+{
+  "name": "tape-tutorial",
+  "version": "1.0.0",
+  "description": "From https://github.com/dwyl/learn-tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape ./test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "istanbul": "^0.4.5",
+    "nyc": "^17.1.0",
+    "tape": "^5.9.0"
+  }
+}
